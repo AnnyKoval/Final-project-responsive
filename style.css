@@ -139,6 +139,47 @@ h3 {
   padding: 20px;
   font-size: 16px;
 }
+.weather-description-block {
+  display: block;
+  margin: 0 auto;
+  margin-top: 90px;
+  line-height: 30px;
+  border: 0px solid grey;
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 20px;
+  background: var(--background-primary);
+  max-width: 900px;
+}
+.payments-project-description {
+  display: block;
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-top: 10px;
+  line-height: 30px;
+  border: 0px solid grey;
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 20px;
+  background: var(--background-primary);
+  max-width: 560px;
+}
+.bakery-project-description {
+  display: block;
+  margin: 0 auto;
+  margin-right: 10px;
+  margin-top: 10px;
+  line-height: 30px;
+  border: 0px solid grey;
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 20px;
+  background: var(--background-primary);
+  max-width: 560px;
+}
 .project-weather {
   border: 1px solid grey;
   border-radius: 5px;
@@ -147,6 +188,7 @@ h3 {
   background-position: 50%;
   max-width: 80%;
 }
+
 form {
   margin: -10px 15px;
 }
