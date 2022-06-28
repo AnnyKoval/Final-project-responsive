@@ -16,12 +16,15 @@
       crossorigin="anonymous"
     ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=IBM+Plex+Mono:wght@100;200&family=Raleway:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>About me</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -58,5 +61,85 @@
       <br />
       <h4>Take a look at what I have been working on!</h4>
     </div>
+    <br />
+    <hr />
+    <hr />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="container project-weather">
+            <h1 id="city"></h1>
+            <p class="datetime"></p>
+
+            <form class="search" id="cityButtons">
+              <input
+                type="search"
+                placeholder="Type a city..."
+                class="rounded-pill"
+                id="mainSearch"
+                autofocus="on"
+                autocomplete="off"
+              />
+              <input
+                type="submit"
+                value="Search"
+                id="searchSubmit"
+                class="rounded-pill"
+              />
+              <input
+                type="submit"
+                value="Current"
+                id="currentButton"
+                class="rounded-pill"
+              />
+            </form>
+            <div class="maindegrees">
+              <span class="mainDegree" id="temperature"></span>
+              <span class="degreeicons" id="celsius">°C </span
+              ><span class="sunicon"
+                ><img
+                  src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+                  alt=""
+                  id="iconWeather"
+              /></span>
+              <p class="currentweather" id="description"><strong> </strong></p>
+              <ul class="parameters">
+                <li id="precipitation">Precipitation: %</li>
+                <li id="humidity">Humidity: %</li>
+                <li id="wind">Wind: km/h</li>
+              </ul>
+            </div>
+
+            <div class="weather-forecast" id="forecast">
+              <div class="col-2">
+                <div class="weather-forecast-date">Mon</div>
+                <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="70"
+                />
+                <div class="weather-forecast-temperatures">
+                  <span class="weather-forecast-temperature-max"> 18° </span>
+                  <span class="weather-forecast-temperature-min"> 12° </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <p>
+            Weather App Project HTML | CSS | JavaScript | VS Code | API | Git
+            Hub | Bootstrap | Hosting This weather app is an interactive app
+            created using React. It provides you with real-life data, since it
+            has an integrated API, provided by OpenWeatherMap. It also enables
+            you to access information such as humidty, wind-speed and a five day
+            forecast. All of this information is provided for every city
+            searched.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>

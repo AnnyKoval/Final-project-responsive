@@ -139,3 +139,114 @@ h3 {
   padding: 20px;
   font-size: 16px;
 }
+.project-weather {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 30px 0 0 30px;
+  background-image: url(images/background.jpg);
+  background-position: 50%;
+  max-width: 80%;
+}
+form {
+  margin: -10px 15px;
+}
+
+.cities {
+  text-align: right;
+}
+.forms {
+  text-align: right;
+}
+.city {
+  text-align: left;
+  padding-left: 0;
+}
+.datetime {
+  margin-top: 0;
+  line-height: 2px;
+}
+.maindegrees {
+  font-size: 55px;
+  margin-left: 5px;
+}
+.currentweather {
+  font-size: 24px;
+  line-height: 10px;
+  margin-left: 5px;
+}
+
+.author {
+  text-align: center;
+  font-size: 12px;
+  margin: 10px 2px 0px 10px;
+  color: white;
+}
+
+.degreeicons {
+  font-size: 18px;
+  position: relative;
+  top: -25px;
+  left: -10px;
+}
+
+.parameters {
+  text-align: right;
+  font-size: 16px;
+  display: grid;
+  position: relative;
+  top: -50px;
+}
+
+.maindegrees .active {
+  cursor: default;
+  color: black;
+  text-decoration: none;
+}
+.maindegrees .active:hover {
+  text-decoration: none;
+}
+.image-color {
+  color: aquamarine;
+  background: #7c515a;
+  border-radius: 5px;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 18px;
+}
+.col-sm-2 {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 5px 0 5px;
+  color: white;
+  background: #9b5d60;
+  opacity: 0.7;
+  font-weight: bold;
+  width: 150px;
+}
+
+.search {
+  display: flex;
+  justify-content: right;
+  margin-right: -10px;
+}
+#mainSearch {
+  width: 120px;
+}
+.parameters {
+  list-style: none;
+}
