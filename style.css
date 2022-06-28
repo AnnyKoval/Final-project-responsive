@@ -6,7 +6,11 @@ body {
   font-family: "IBM Plex Mono", monospace;
   font-family: "Raleway", sans-serif;
 }
-h1 {
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.intro {
   margin: 30px 30px 30px 10px;
   line-height: 60px;
   border: 1px solid grey;
@@ -15,10 +19,6 @@ h1 {
   font-size: 30px;
   padding: 20px;
   background: var(--background-primary);
-}
-h3 {
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .nav-link {
@@ -39,8 +39,11 @@ h3 {
   display: block;
 }
 #photo-author {
+  display: block;
+  margin: 0 auto;
   border-radius: 5px;
   box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
+  margin-top: 50px;
 }
 .projects {
   text-align: center;
@@ -74,22 +77,64 @@ h3 {
 .skills {
   font-size: 20px;
 }
-.contact-me {
-  margin: 30px 30px 30px 30px;
+
+.about-intro {
+  display: block;
+  margin: 0 auto;
+  margin-top: 90px;
+  line-height: 30px;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 20px;
+  background: var(--background-primary);
+  max-width: 900px;
+}
+.about-text {
+  display: block;
+  margin: 0 auto;
+  margin-left: 30px;
+  margin-top: 50px;
+  line-height: 30px;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 100px 20px;
+  background: var(--background-primary);
+  max-width: 600px;
+}
+.certificate {
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
+}
+.footer-about,
+.footer-homepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
   border: 1px solid grey;
   box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
   border-radius: 5px;
   text-align: justify;
   font-size: 20px;
-  padding: 20px;
+  padding: 15px;
   background: var(--background-primary);
+  max-width: 1000px;
+  font-size: 30px;
 }
+.footer-about-button,
 .contact-footer-button {
-  margin-top: 40px;
-  margin-left: 50px;
-  width: 300px;
-  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  width: 200px;
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
   border-radius: 5px;
+  margin-left: 40px;
   box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
   padding: 20px;
+  font-size: 16px;
 }
