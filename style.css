@@ -180,6 +180,40 @@ h3 {
   background: var(--background-primary);
   max-width: 560px;
 }
+.image-contacts {
+  margin-top: 100px;
+  padding-left: 10px;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
+}
+.text-contacts {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-left: -20px;
+  line-height: 50px;
+  border: 0px solid grey;
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 20px;
+  background: var(--background-primary);
+}
+.footer-contacts {
+  display: block;
+  margin: 0 auto;
+  margin-top: 130px;
+  border: 0px solid grey;
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+  background: var(--background-primary);
+  font-size: 30px;
+}
+
 .project-weather {
   border: 1px solid grey;
   border-radius: 5px;
