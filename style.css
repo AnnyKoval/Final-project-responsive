@@ -43,7 +43,6 @@ h3 {
   margin: 0 auto;
   border-radius: 5px;
   box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
-  margin-top: 50px;
 }
 .projects {
   text-align: center;
@@ -74,34 +73,28 @@ h3 {
   font-weight: bold;
   line-height: 40px;
 }
+.soft-skills {
+  background: #fceef0;
+}
 .skills {
   font-size: 20px;
+  list-style: square;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.about-intro {
-  display: block;
-  margin: 0 auto;
-  margin-top: 90px;
-  line-height: 30px;
-  border: 0px solid grey;
-  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
-  border-radius: 5px;
-  font-size: 30px;
-  padding: 20px;
-  background: var(--background-primary);
-  max-width: 900px;
-}
 .about-text {
   display: block;
   margin: 0 auto;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 10px;
   line-height: 30px;
   border: 0px solid grey;
   box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
   border-radius: 5px;
   font-size: 15px;
-  padding: 100px 20px;
+  padding: 60px 20px;
   background: var(--background-primary);
   max-width: 600px;
 }
@@ -119,7 +112,7 @@ h3 {
   border-radius: 5px;
   text-align: justify;
   font-size: 20px;
-  padding: 15px;
+  padding: 25px 10px;
   background: var(--background-primary);
   max-width: 1000px;
   font-size: 30px;
@@ -134,6 +127,7 @@ h3 {
   );
   border-color: antiquewhite;
   border-radius: 5px;
+  margin-top: -15px;
   margin-left: 40px;
   box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
   padding: 20px;
