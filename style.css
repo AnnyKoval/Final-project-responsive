@@ -32,11 +32,20 @@ h3 {
   font-size: 50px;
   font-weight: 900;
 }
-#photo-main {
-  margin-top: 30px;
+.photo-main {
   padding-left: 10px;
-  max-width: 50%;
   display: block;
+  vertical-align: top;
+  max-width: 100%;
+}
+.certificate-image,
+.contacts-image {
+  padding-left: 10px;
+  display: block;
+  vertical-align: top;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
 }
 #photo-author {
   display: block;
@@ -91,9 +100,7 @@ h3 {
   background: var(--background-primary);
   max-width: 600px;
 }
-.certificate {
-  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
-}
+
 .footer-about,
 .footer-homepage {
   display: flex;
@@ -107,8 +114,8 @@ h3 {
   font-size: 20px;
   padding: 25px 10px;
   background: var(--background-primary);
-  max-width: 1000px;
   font-size: 30px;
+  max-width: 700px;
 }
 .footer-about-button,
 .contact-footer-button {
@@ -174,6 +181,12 @@ h3 {
   border-radius: 5px;
   box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
 }
+.project-image {
+  padding-left: 10px;
+  display: block;
+  vertical-align: top;
+  max-width: 100%;
+}
 .text-contacts {
   display: block;
   margin: 0 auto;
@@ -190,7 +203,7 @@ h3 {
 .footer-contacts {
   display: block;
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 30px;
   border: 0px solid grey;
   box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
   border-radius: 5px;
