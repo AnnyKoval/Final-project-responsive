@@ -76,13 +76,6 @@ h3 {
 .soft-skills {
   background: #fceef0;
 }
-.skills {
-  font-size: 20px;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
 .about-text {
   display: block;
