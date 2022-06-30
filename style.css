@@ -150,7 +150,6 @@ h3 {
 .payments-project-description {
   display: block;
   margin: 0 auto;
-  margin-left: 10px;
   margin-top: 10px;
   line-height: 30px;
   border: 0px solid grey;
@@ -159,13 +158,11 @@ h3 {
   font-size: 20px;
   padding: 20px;
   background: var(--background-primary);
-  max-width: 560px;
+  max-width: 500px;
 }
 .bakery-project-description {
   display: block;
   margin: 0 auto;
-  margin-right: 10px;
-  margin-top: 10px;
   line-height: 30px;
   border: 0px solid grey;
   box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
@@ -173,21 +170,18 @@ h3 {
   font-size: 20px;
   padding: 20px;
   background: var(--background-primary);
-  max-width: 560px;
+  max-width: 500px;
 }
-.image-contacts {
-  margin-top: 100px;
-  padding-left: 10px;
-  display: block;
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
-}
+
 .project-image {
   padding-left: 10px;
   display: block;
   vertical-align: top;
   max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgb(127, 132, 135);
 }
+
 .text-contacts {
   display: block;
   margin: 0 auto;
